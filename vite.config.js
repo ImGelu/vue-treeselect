@@ -28,14 +28,16 @@ export default defineConfig({
       entry: resolve(__dirname, './src/index.js'),
       name: 'TreeSelect',
       // the proper extensions will be added
-      fileName: 'treeselect'
+      fileName: (format) => `vue-treeselect.${format}.js`,
     },
     rollupOptions: {
+      external: ['vue'],
       output: {
-        exports: "named",
-        entryFileNames: 'vue-treeselect.js',
-        assetFileNames: 'vue-treeselect.css'
-      }
-    }
+        assetFileNames: 'vue-treeselect.css',
+        globals: {
+          vue: 'Vue',
+        },
+      },
+    },
   }
 })
