@@ -1,6 +1,6 @@
 {
   "name": "@imgelu/vue-treeselect",
-  "version": "0.1.4",
+  "version": "0.1.7",
   "description": "Tree Multi-Select Hierarchical Component for Vue 3",
   "author": "Gelu Ungur <ImGelu@gmail.com>",
   "license": "MIT",
@@ -9,8 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/imgelu/vue-treeselect.git"
   },
-  "css": "dist/vue-treeselect.min.css",
-  "main": "dist/vue-treeselect.es.js",
+  "main": "dist/vue-treeselect.common.js",
   "unpkg": "dist/vue-treeselect.umd.js",
   "scripts": {
     "build": "vue-cli-service build --target lib --name vue-treeselect ./src/index.js && webpack --env.production",
