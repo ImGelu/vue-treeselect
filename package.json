@@ -1,0 +1,39 @@
+{
+  "name": "vue-treeselect",
+  "version": "0.1.1",
+  "description": "Tree Multi-Select Hierarchical Component for Vue 3",
+
+  "author": "Gelu Ungur <ImGelu@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ImGelu/vue-treeselect",
+  "repository": "imgelu/vue-treeselect",
+  "css": "dist/vue-treeselect.min.css",
+  "main": "dist/vue-treeselect.js",
+  "unpkg": "dist/vue-treeselect.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "easings-css": "^2.1.1",
+    "fuzzysearch": "^1.0.3",
+    "is-promise": "^4.0.0",
+    "less": "^4.1.3",
+    "lodash": "^4.17.21",
+    "material-colors": "^1.2.6",
+    "vue": "^3.0.0",
+    "watch-size": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.4",
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.21.0",
+    "eslint-plugin-vue": "^9.3.0",
+    "prettier": "^2.7.1",
+    "vite": "^3.0.4"
+  }
+}
