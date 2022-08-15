@@ -1,12 +1,14 @@
 {
-  "name": "vue-treeselect",
+  "name": "@imgelu/vue-treeselect",
   "version": "0.1.1",
   "description": "Tree Multi-Select Hierarchical Component for Vue 3",
-
   "author": "Gelu Ungur <ImGelu@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/ImGelu/vue-treeselect",
-  "repository": "imgelu/vue-treeselect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imgelu/vue-treeselect.git"
+  },
   "css": "dist/vue-treeselect.min.css",
   "main": "dist/vue-treeselect.js",
   "unpkg": "dist/vue-treeselect.js",
@@ -35,5 +37,22 @@
     "eslint-plugin-vue": "^9.3.0",
     "prettier": "^2.7.1",
     "vite": "^3.0.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/imgelu/vue-treeselect/issues"
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "tree",
+    "treeview",
+    "select",
+    "treeselect",
+    "dropdown",
+    "multiselect",
+    "form",
+    "control",
+    "input",
+    "ui"
+  ]
 }
