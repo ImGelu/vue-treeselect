@@ -1,3 +1,4 @@
+<script>
 export default {
     name: 'vue-treeselect--placeholder',
     inject: ['instance'],
@@ -17,3 +18,4 @@ export default {
         )
     },
 }
+</script>

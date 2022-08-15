@@ -1,3 +1,4 @@
+<script>
 import {MENU_BUFFER} from '../constants'
 import {watchSize, setupResizeAndScrollEventListeners} from '../utils'
 import Option from './Option'
@@ -309,3 +310,4 @@ export default {
         )
     },
 }
+</script>

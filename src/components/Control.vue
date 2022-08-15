@@ -1,3 +1,4 @@
+<script>
 import {onLeftClick, isPromise} from '../utils'
 import SingleValue from './SingleValue'
 import MultiValue from './MultiValue'
@@ -149,3 +150,4 @@ export default {
         )
     },
 }
+</script>

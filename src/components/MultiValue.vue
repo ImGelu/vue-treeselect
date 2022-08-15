@@ -1,3 +1,4 @@
+<script>
 import MultiValueItem from './MultiValueItem'
 import Input from './Input'
 import Placeholder from './Placeholder'
@@ -53,3 +54,4 @@ export default {
         )
     },
 }
+</script>

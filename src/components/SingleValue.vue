@@ -1,3 +1,4 @@
+<script>
 import Input from './Input'
 import Placeholder from './Placeholder'
 
@@ -30,3 +31,4 @@ export default {
         ])
     },
 }
+</script>

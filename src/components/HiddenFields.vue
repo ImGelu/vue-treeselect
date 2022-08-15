@@ -1,3 +1,4 @@
+<script>
 import {isNaN} from '../utils'
 import {defineComponent} from 'vue';
 
@@ -34,3 +35,4 @@ export default defineComponent({
         ))
     },
 })
+</script>

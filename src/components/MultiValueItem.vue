@@ -1,3 +1,4 @@
+<script>
 import {onLeftClick} from '../utils'
 import DeleteIcon from './icons/Delete'
 
@@ -41,3 +42,4 @@ export default {
         )
     },
 }
+</script>

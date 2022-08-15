@@ -1,3 +1,4 @@
+<script>
 import {UNCHECKED, INDETERMINATE, CHECKED} from '../constants'
 import {onLeftClick} from '../utils'
 import Tip from './Tip'
@@ -283,3 +284,4 @@ const Option = {
 
 // eslint-disable-next-line vue/require-direct-export
 export default Option
+</script>
