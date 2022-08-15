@@ -1,7 +1,7 @@
 # vue-treeselect
-[![npm](https://badgen.now.sh/npm/v/@imgelu/vue-treeselect)](https://www.npmjs.com/package/@imgelu/vue3-treeselect)  [![Coverage](https://badgen.net/codecov/c/github/imgelu/vue-treeselect)](https://codecov.io/gh/imgelu/vue-treeselect?branch=main)
-![npm monthly downloads](https://badgen.now.sh/npm/dm/imgelu/vue-treeselect)
-[![Known vulnerabilities](https://snyk.io/test/npm/imgelu/vue-treeselect/badge.svg)](https://snyk.io/test/npm/imgelu/vue3-treeselect) ![License](https://badgen.net/github/license/imgelu/vue-treeselect)
+[![npm](https://badgen.now.sh/npm/v/@imgelu/vue-treeselect)](https://www.npmjs.com/package/@imgelu/vue-treeselect) [![Coverage](https://badgen.net/codecov/c/github/imgelu/vue-treeselect)](https://codecov.io/gh/imgelu/vue-treeselect?branch=main)
+![npm monthly downloads](https://badgen.now.sh/npm/dm/@imgelu/vue-treeselect)
+![Known Vulnerabilities](https://snyk.io/test/github/imgelu/vue-treeselect/badge.svg) ![License](https://img.shields.io/github/license/ImGelu/vue-treeselect)
 
 > A multi-select component with nested options support for Vue 3.
 > 
