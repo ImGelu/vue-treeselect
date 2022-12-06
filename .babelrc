@@ -2,8 +2,7 @@
   "presets": [
     "@babel/env",
     "@babel/typescript",
-    "@vue/cli-plugin-babel/preset",
-    "@vue/babel-preset-jsx"
+    "@vue/cli-plugin-babel/preset"
   ],
   "plugins": [
     "@vue/babel-plugin-jsx"
