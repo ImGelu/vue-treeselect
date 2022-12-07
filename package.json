@@ -1,6 +1,6 @@
 {
   "name": "@imgelu/vue-treeselect",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Tree Multi-Select Hierarchical Component for Vue 3",
   "author": "Gelu Ungur <ImGelu@gmail.com>",
   "license": "MIT",
