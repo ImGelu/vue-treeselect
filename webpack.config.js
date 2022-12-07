@@ -35,12 +35,11 @@ module.exports = (env = {}) => ([
                     test: /\.(sass|scss|css)$/,
                     use: [
                         {
-                            loader: MiniCssExtractPlugin.loader,
-                            options: { hmr: !env.production }
+                            loader: MiniCssExtractPlugin.loader
                         },
                         {
                             loader: "css-loader",
-                            query: {
+                            options: {
                                 importLoaders: 1
                             }
                         },
@@ -58,12 +57,11 @@ module.exports = (env = {}) => ([
                     test: /\.(less)$/,
                     use: [
                         {
-                            loader: MiniCssExtractPlugin.loader,
-                            options: { hmr: !env.production }
+                            loader: MiniCssExtractPlugin.loader
                         },
                         {
                             loader: "css-loader",
-                            query: {
+                            options: {
                                 importLoaders: 1
                             }
                         },
